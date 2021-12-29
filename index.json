@@ -1,0 +1,282 @@
+{
+    "questionDeSofian": [
+     
+       {
+          "id":"1",
+          "question": "Qui est le premier hokage ?",
+          "propositions": [ 
+           "Hashirama",
+           "Naruto",
+           "Kakshi",
+           "Gutz"
+           ],
+          "answer": "Hashirama"
+       },
+     
+       {
+          "id":"2",
+          "question": "Qui a detruit Konoha ?  ",
+          "propositions": [ 
+           "Pain",
+           "Nagato",
+           "Konan",
+           "Hinatta"
+           ],
+          "answer": "Pain"
+       },
+       {
+        "id":"3",
+        "question": " Comment Naruto appelle t'il jiraya ?",
+        "propositions": [ 
+         "L'ermite pas net ",
+         "Maitre",
+         "Sensei",
+         "Bg du 30"
+         ],
+        "answer": "L'ermite pas net "
+     },
+     {
+        "id":"4",
+        "question": " Quel est le nom de Minato ?",
+        "propositions": [ 
+         "Uzumaki",
+         "Uchiha",
+         "Namikaze",
+         "Kuto"
+         ],
+        "answer": "Namikaze"
+     },
+     {
+        "id":"5",
+        "question": "Qui a tué le clan uchiha ? ",
+        "propositions": [ 
+         "Naruto",
+         "Ebisu",
+         "Iruka",
+         "Sasuke"
+         ],
+        "answer": "Sasuke"
+     },
+     {
+        "id":"6",
+        "question": "Qui est le frère de Sasuke ? ",
+        "propositions": [ 
+         "Obito",
+         "Shisui",
+         "Madara",
+         "Itachi"
+         ],
+        "answer": "Itachi"
+     },
+     {
+        "id":"7",
+        "question": "Qui est la première personne à avoir apprécié Naruto ? ",
+        "propositions": [ 
+         "Sasuke",
+         "Mizuki",
+         "Iruka",
+         "Kakashi"
+         ],
+        "answer": "Iruka"
+     },
+     {
+        "id":"8",
+        "question": "Kakashi est surnommé : ",
+        "propositions": [ 
+         "Le ninja au sharingan",
+         "Le ninja copieur ",
+         "Le ninja au bandeau",
+         "KAKASHI"
+         ],
+        "answer": "Le ninja au sharingan"
+     },
+     {
+        "id":"9",
+        "question": "Quel grand méchant fait partie de la famille de Naruto ? ",
+        "propositions": [ 
+         "Pain",
+         "Nagato",
+         "Kushina",
+         "Hinanta"
+         ],
+        "answer": "Nagato"
+     },
+     {
+        "id":"10",
+        "question": " Quelle fille aime Naruto ?",
+        "propositions": [ 
+         "Sakura",
+         "Ino",
+         "Iwari",
+         "Hinata"
+         ],
+        "answer": "Hinata"
+     },
+     {
+        "id":"11",
+        "question": "Dans le film Naruto road to ninja quelle particularité y a-t-il ? ",
+        "propositions": [ 
+         "Naruto n'existe pas",
+         " Naruto est le beau gosse du village",
+         "Naruto est hokage",
+         "Les parents de Naruto sont en vie"
+         ],
+        "answer": "Les parents de Naruto sont en vie"
+     },
+     {
+        "id":"12",
+        "question": "Quel bras Naruto a-t-il perdu ? ",
+        "propositions": [ 
+         "Droit",
+         "Gauche",
+         "Les deux",
+         "Aucun"
+         ],
+        "answer": "Droit"
+     },
+     {
+        "id":"13",
+        "question": " Contre qui Naruto a-t-il perdu son bras ?",
+        "propositions": [ 
+         "Sasuke",
+         "Itachi",
+         "Madara",
+         "Tobi"
+         ],
+        "answer": "Sasuke"
+     },
+     {
+        "id":"14",
+        "question": " Quel était le surnom de Kushina ?",
+        "propositions": [ 
+         "La moche",
+         "L'étrangere",
+         "Le piment rouge sang",
+         "La fille aux cheveux rouge"
+         ],
+        "answer": "Le piment rouge sang"
+     },
+     {
+        "id":"15",
+        "question": "Quand Kushina est-elle tombée amoureuse de Minato ? ",
+        "propositions": [ 
+         "",
+         "",
+         "",
+         ""
+         ],
+        "answer": ""
+     },
+     {
+        "id":"16",
+        "question": " Quand Minato est-il apparu dans l'esprit de Naruto ?",
+        "propositions": [ 
+         "Quand il l'a défendue contre les autres",
+         "Quand il l'a embrassée",
+         "Quand il l'a sauvée d'un village étranger",
+         "Quand Minato a été célèbre"
+         ],
+        "answer": "Quand il l'a sauvée d'un village étranger"
+     },
+     {
+        "id":"17",
+        "question": "Quand Kushina est-elle apparue dans l'esprit de Naruto ? ",
+        "propositions": [ 
+         " Quand il dormait",
+         "Quand il pensait",
+         "Quand il a combattu Kiubi",
+         "Quand il pensait"
+         ],
+        "answer": "Quand il a combattu Kiubi"
+     },
+     {
+        "id":"18",
+        "question": "Naruto est la réincarnation de : ",
+        "propositions": [ 
+         "Madara",
+         "Indra",
+         "Minato",
+         "Tobirama"
+         ],
+        "answer": "Indra"
+     },
+     {
+        "id":"19",
+        "question": " Quel est le rang de Naruto parmi les hokages ?",
+        "propositions": [ 
+         "cinquième",
+         "Sixième",
+         "Septième",
+         "Huitième"
+         ],
+        "answer": "Septième"
+     },
+     {
+        "id":"20",
+        "question": "Combien de frères avait Hashirama ? ",
+        "propositions": [ 
+         "un",
+         "deux",
+         "trois",
+         "quatre"
+         ],
+        "answer": "deux"
+     },
+     {
+        "id":"21",
+        "question": " Quel âge a Naruto quand il rencontre ses parents ?",
+        "propositions": [ 
+         "Treize ",
+         "Quatorze",
+         "Quinze",
+         "Seize"
+         ],
+        "answer": "Seize"
+     },
+     {
+        "id":"22",
+        "question": " Qui est Akamaru ?",
+        "propositions": [ 
+         "Un chien perdu",
+         "Le chien de Kakashi",
+         " Le pote de Pakkun",
+         " Le chien de Kiba"
+         ],
+        "answer": "Le chien de Kiba"
+     },
+     {
+        "id":"23",
+        "question": "Qui est mort dans le premier épisode de Naruto ? ",
+        "propositions": [ 
+         "Tsunada",
+         "Hasirama",
+         "Yondaime",
+         "Pakun"
+         ],
+        "answer": "Yomdaime"
+     },
+     {
+        "id":"24",
+        "question": " Quel fut le premier bandeau rayé ?",
+        "propositions": [ 
+         "Itachi",
+         "Naruto",
+         "Sasuke",
+         "Jiraya"
+         ],
+        "answer": "Itachi"
+     },
+     {
+        "id":"25",
+        "question": " Qui a entrainé Sakura ?",
+        "propositions": [ 
+         "Tsunade",
+         "Karin",
+         "Kakashi",
+         "Konana"
+         ],
+        "answer": "Tsunade"
+    
+     }
+    ]
+ }
