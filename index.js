@@ -1,36 +1,37 @@
-fetch("http://localhost:5500/index.json")
-start();
- 
-// FONCTION PRINCIPALE DE L'APPLICATION
-// Il faut la définir en “async” (asynchrone)
-// car elle utilise fetch() (et “await” pour attendre une réponse)
-async function start()
-{
-   const data = await getJson(); // Récupère le tableau json
-   
-   // Mélange le tableau json
-   shuffleArray(data);
-   
-   // Affiche pour tester la première question dans la console
-   console.log(data[0].question);
+var i = 0;
+var correctCount = 0 ;
+
+generate(0);
+//rempli mon html avec mes donné "Json"
+function generate(index) {
+    document.getElementById("question").innerHTML = jsonData[index].question;
+    document.getElementById("optt1").innerHTML = jsonData[index].choice1;
+    document.getElementById("optt2").innerHTML = jsonData[index].choice2;
+    document.getElementById("optt3").innerHTML = jsonData[index].choice3;
+    document.getElementById("optt4").innerHTML = jsonData[index].choice4;
 }
- 
- 
- 
-// Fonction de RÉCUPÉRATION DU FICHIER JSON contenant le quiz
-// également en “async” car elle utilise fetch() et “await”
-async function getJson()
-{
-   // Récupère les données avec la fonction fetch()
-   // Ici le fichier s'appelle quiz.json et il est situé à la racine "/" du dossier projet
-   const data = await fetch("http://localhost:5500/index.json");
- 
-   return data.json(); // Retourne les données au format Json
-}
- 
- 
- 
-// Fonction de MÉLANGE ALÉATOIRE d’un tableau
-function shuffleArray(array) {
-   return array.sort(() => 0.5 - Math.random());
+
+
+function checkAnswer() {
+    if (document.getElementById("choice1").checked && jsonData[i].opt1 == jsonData[i].answer) {
+       correctCount++;
+    }
+    if (document.getElementById("choice2").checked && jsonData[i].opt2 == jsonData[i].answer) {
+        correctCount++;
+    }
+    if (document.getElementById("choice3").checked && jsonData[i].opt3 == jsonData[i].answer) {
+        correctCount++;
+    }
+    if (document.getElementById("choice4").checked && jsonData[i].opt3 == jsonData[i].answer) {
+        correctCount++;
+    }
+    // incrementation pour changer de question 
+    i++;
+    if(jsonData.length-1 < i){
+        document.write("<body style='background-color:#348322;'>");
+        document.write("<div style='color:#ffffff;font-size:18pt;text-align:center;'>*****Ton score de BG : "+correctCount+"*****</div>");
+        document.write("</body>");
+    }
+    // Rappel pour generer
+    generate(i);
 }

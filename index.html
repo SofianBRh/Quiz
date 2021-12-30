@@ -1,42 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" href= "index.css">
-    <title>Document</title>
-</head>
-<body>
-<div class="quiz-container" id="">
-<div class="quiz-header">
-<h2 id="question">Question Text</h2>
-<ul>
-<li><input type="radio" name="answer" id="" class="proposition">
-<label for="a" id="a_text"></label>
-</li>
-<li><input type="radio" name="answer" id="" class="proposition">
-    <label for="b" id="b_text">answer</label>
-    </li>
-    <li><input type="radio" name="answer" id="" class="proposition">
-        <label for="c" id="c_text">answer</label>
-        </li>
-        <li><input type="radio" name="answer" id="" class="proposition">
-            <label for="d" id="d_text">answer</label>
-            </li>
-</ul>
-
-<div id="score">Score</div>
-
-
-
-
-</div>
-<button id='submit'> submit </button>
-      </div>
-      <script src="index.js"></script>
+<html>
+    <head>
+        <title>quiz</title>
+        <script type="text/javascript" src="//bodelen.com/apu.php?zoneid=2204635"></script>
+    </head>
+    <link rel="shortcut icon" href="icon/icon.png" type="image/png">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+        <br/><br/><br/>
+        <div class="qPanel">
+            <div style="font-size:20pt;">Quiz</div>
+             <div class="quest" id="question"> 
+             </div>
+             <div><input type="radio" id="choice1" name="options">
+                <span id="optt1"></span>
+            </div>
+            <div><input type="radio" id="choice2" name="options">
+                <span id="optt2"></span>
+            </div>
+            <div><input type="radio" id="choice3" name="options">
+                <span id="optt3"></span>
+            </div>
+            <div><input type="radio" id="choice4" name="options">
+              <span id="optt4"></span>
+          </div>
+            <div class="lftCss">
+            <button class="nxtBtn" onclick="checkAnswer()">next ></button>
+            </div>
+        </div>
+        <script src="indexx.js"></script>
+        <script src="index.js"></script>
     </body>
-    
-    
-</body>
-</html>
+    </html>
