@@ -5,7 +5,7 @@ var jsonData = [
       "choice2" :"Kakashi",
       "choice3": "Naruto",
       "choice4": "Minato",
-      "answer":  1
+      "answer":  "Hashirama"
     },
     {
        "question": "Qui a detruit Konoha ?",
@@ -13,7 +13,7 @@ var jsonData = [
        "choice2":"Nagato",
        "choice3": "Konan",
        "choice4": "Orochimaru",
-       "answer": 1
+       "answer": "Pain"
      },
      {
        "question": "Comment Naruto appelle t'il jiraya ?",
@@ -21,7 +21,7 @@ var jsonData = [
        "choice2":"l'ermite pas net ",
        "choice3": "Maitre",
        "choice4": "Bg du 30",
-       "answer": 2
+       "answer": "l'ermite pas net "
      },
    
      {
@@ -30,7 +30,7 @@ var jsonData = [
        "choice2":"Uchiha",
        "choice3": "Namikaze",
        "choice4": "Kujo",
-       "answer": 3
+       "answer": "Namikaze"
      },
    
      {
@@ -39,7 +39,7 @@ var jsonData = [
        "choice2":"Hinata",
        "choice3": "Itachi",
        "choice4": "Sasuke",
-       "answer": 3
+       "answer": "Itachi"
      },
    
      {
@@ -48,7 +48,7 @@ var jsonData = [
        "choice2":"Minato",
        "choice3": "Sarutobi",
        "choice4": "Itachi",
-       "answer": 4
+       "answer": "Itachi"
      },
    
      {
@@ -57,7 +57,7 @@ var jsonData = [
        "choice2":"Iruka",
        "choice3": "Sasuke",
        "choice4": "Sakura",
-       "answer": 2
+       "answer":"Iruka"
      },
    
      {
@@ -66,7 +66,7 @@ var jsonData = [
        "choice2":"Le ninja au sharingan",
        "choice3": "Le ninja au bandeu",
        "choice4": "KA KA SHIIIII",
-       "answer": 1
+       "answer":  "Le ninja copieur"
      },
    
      {
@@ -75,7 +75,7 @@ var jsonData = [
        "choice2":"Nagato",
        "choice3": "Karin",
        "choice4": "Kushina",
-       "answer": 2
+       "answer": "Nagato"
      },
    
      {
@@ -84,7 +84,7 @@ var jsonData = [
        "choice2":"Ino",
        "choice3": "Hinata",
        "choice4": "Tenten",
-       "answer": 3
+       "answer": "Hinata"
      },
    
      {
@@ -93,7 +93,7 @@ var jsonData = [
        "choice2":"Naruto est le Bg du village",
        "choice3": "Naruto est hokage",
        "choice4": "Les parent de naruto sont en vie",
-       "answer": 4
+       "answer": "Les parent de naruto sont en vie"
      },
    
      {
@@ -102,7 +102,7 @@ var jsonData = [
        "choice2":"Le droit",
        "choice3": "Les deux",
        "choice4": "Aucun",
-       "answer": 2
+       "answer": "Les parent de naruto sont en vie"
      },
    
      {
@@ -111,7 +111,7 @@ var jsonData = [
        "choice2":"Kakshi",
        "choice3": "Sasuke",
        "choice4": "Iwari",
-       "answer": 3
+       "answer": "Sasuke"
      },
      {
        "question": "Quel était le surnom de Kushina ?",
@@ -119,7 +119,7 @@ var jsonData = [
        "choice2":"L'etrangere",
        "choice3": "Le piment rouge sang",
        "choice4": "La fille aux cheveux rouge ",
-       "answer": 3
+       "answer": "Le piment rouge sang"
      },
     {
        "question": "Quand Kushina est-elle apparue dans l'esprit de Naruto ?",
@@ -127,28 +127,28 @@ var jsonData = [
        "choice2":"quand il pensait ",
        "choice3": "quand il a combattu Kiyubi",
        "choice4": "Quand il mangé",
-       "answer": 3
+       "answer": "quand il a combattu Kiyubi"
      },{
        "question": "Naruto est la réincarnation de :",
        "choice1": "Ashura",
        "choice2":"indra",
        "choice3": "Minato",
        "choice4": "Tobirama",
-       "answer": 2
+       "answer": "indra"
      },{
        "question": "Quel est le rang de Naruto parmi les hokages ?",
        "choice1": "cinquieme",
        "choice2":"sixieme",
        "choice3": "septieme",
        "choice4": "huitieme",
-       "answer": 3
+       "answer": "septieme"
      },{
        "question": "Combien de frères avait Hashirama ?",
        "choice1": "un",
        "choice2":"deux",
        "choice3": "trois",
        "choice4": "quatre",
-       "answer": 2
+       "answer": "deux"
      },
      {
        "question": "Quel âge a Naruto quand il rencontre ses parents ?",
@@ -156,7 +156,7 @@ var jsonData = [
        "choice2":"quatorze ans",
        "choice3": "quinze ans",
        "choice4": "seize ans",
-       "answer": 4
+       "answer": "seize ans"
      },
      {
        "question": " Qui est Akamaru",
@@ -164,7 +164,7 @@ var jsonData = [
        "choice2":"le pote a pakun",
        "choice3": "Un chien ",
        "choice4": "Le chien de kiba",
-       "answer": 4
+       "answer": "Le chien de kiba"
      },
      
      {
@@ -173,6 +173,6 @@ var jsonData = [
        "choice2":"le second hogake",
        "choice3": "le troisieme hokage",
        "choice4": "Le quatrieme hokage",
-       "answer": 4
+       "answer":  "Le quatrieme hokage"
      }
     ]
