@@ -13,16 +13,16 @@ function generate(index) {
 
 
 function checkAnswer() {
-    if (document.getElementById("choice1").checked && jsonData[i].opt1 == jsonData[i].answer) {
+    if (document.getElementById("choice1").checked && jsonData[i].choice1== jsonData[i].answer) {
        correctCount++;
     }
-    if (document.getElementById("choice2").checked && jsonData[i].opt2 == jsonData[i].answer) {
+    if (document.getElementById("choice2").checked && jsonData[i].choice2 == jsonData[i].answer) {
         correctCount++;
     }
-    if (document.getElementById("choice3").checked && jsonData[i].opt3 == jsonData[i].answer) {
+    if (document.getElementById("choice3").checked && jsonData[i].choice3 == jsonData[i].answer) {
         correctCount++;
     }
-    if (document.getElementById("choice4").checked && jsonData[i].opt3 == jsonData[i].answer) {
+    if (document.getElementById("choice4").checked && jsonData[i].choice4 == jsonData[i].answer) {
         correctCount++;
     }
     // incrementation pour changer de question 

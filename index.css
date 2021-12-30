@@ -4,11 +4,11 @@ body{
 
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: top center !important;
-  background-repeat: no-repeat !important;
+  background-position: top center ;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.qPanel{
+.container{
   margin:auto;
   width:800px;
   vertical-align: center;
@@ -17,7 +17,7 @@ body{
   border: none ;
   border-radius : 10px ;
   padding: 20px ;
-  height: 160px ;
+  height: 260px ;
   font-size: 15pt;
 }
 .ques{
